@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  /* Estilos para etiquetas de longitud */
+  #break-label, #session-label {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los botones de incremento y decremento */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para la longitud del break y session */
+  #break-length, #session-length {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  /* Estilos para el reloj */
+  #timer {
+    margin-top: 20px;
+  }
+  
+  #timer-label {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #time-left {
+    font-size: 48px;
+    margin: 10px;
+  }
+  
+  /* Estilos para los botones de control */
+  #start_stop, #reset {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 20px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  #start_stop:hover, #reset:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el audio */
+  #beep {
+    display: none;
+  }  
